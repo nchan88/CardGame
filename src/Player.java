@@ -3,9 +3,11 @@ import java.util.ArrayList;
 public class Player {
     private String name;
     private ArrayList<Card> hand;
+    //I don't use points in my game, but I'm leaving it in case I want to implement multiple rounds to one game
     private int points;
 
     public Player(String name) {
+        hand = new ArrayList<Card>();
         this.name = name;
         this.points = 0;
     }
