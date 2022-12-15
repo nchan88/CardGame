@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Game {
     //needs to be static to be used in main
     static Scanner reader = new Scanner(System.in);
